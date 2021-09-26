@@ -2,6 +2,7 @@
 #include "Hazel/Renderer/RendererAPI.h"
 
 #include "Platform/OpenGL/OpenGLRendererAPI.h"
+#include "Platform/DirectX11/DirectX11RenderAPI.h"
 
 namespace Hazel {
 

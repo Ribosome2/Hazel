@@ -11,7 +11,7 @@ namespace Hazel {
 	public:
 		enum class API
 		{
-			None = 0, OpenGL = 1
+			None = 0, OpenGL = 1,DirectX11=2,
 		};
 	public:
 		virtual ~RendererAPI() = default;
