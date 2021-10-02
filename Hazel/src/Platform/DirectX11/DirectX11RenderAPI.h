@@ -3,7 +3,7 @@
 #include "Hazel/Renderer/RendererAPI.h"
 
 namespace Hazel {
-	class DirectX11RenderAPI:RendererAPI
+	class DirectX11RenderAPI:public RendererAPI
 	{
 	public:
 		virtual void Init() override;
